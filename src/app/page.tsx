@@ -41,13 +41,13 @@ export default function Home() {
   
   return (
     <main className="flex min-h-screen flex-col items-center px-2 md:px-5 py-10 md:p-10">
-      <Image src="/perfil.png" alt="Eifol" width={180} height={180} />
+      <Image src="/perfil.png" alt="Eifol" width={180} height={180} className="w-28"/>
       <Image
-        className="py-8"
+        className="py-4"
         src="/eifol.png"
         alt="Eifol"
-        width={100}
-        height={100}
+        width={80}
+        height={80}
       />
 
       <p className="text-center text-sm max-w-xl md:text-lg">
@@ -68,7 +68,7 @@ export default function Home() {
             const alredyBought = numbers.includes(item.number)
             return (
               <button
-                className={`flex-1 w-10 flex items-center justify-center font-normal 
+                className={`flex-1 w-10 flex items-center justify-center 
                 p-1 border md:p-2 md:border-2 border-[#174580]
                 ${alredyBought && 'text-xl'}
               `}
