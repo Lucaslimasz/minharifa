@@ -40,7 +40,7 @@ export default function Home() {
   };
   
   return (
-    <main className="flex min-h-screen flex-col items-center px-5 py-10 md:p-10">
+    <main className="flex min-h-screen flex-col items-center px-2 md:px-5 py-10 md:p-10">
       <Image src="/perfil.png" alt="Eifol" width={180} height={180} />
       <Image
         className="py-8"
@@ -49,14 +49,17 @@ export default function Home() {
         width={100}
         height={100}
       />
-      <p className="text-center text-lg max-w-xl">
+
+      <p className="text-center text-sm max-w-xl md:text-lg">
         Olá, Somos Lucas & Alane e iremos para o EIFOL no mês de Julho. Queremos
         que você nos ajude a estar presente desse grande sonho!!! Contamos com a
         sua sua ajuda.
       </p>
-      <p className="text-lg pt-4 max-w-xl">Valor: R$ 10,00</p>
-      <p className="text-lg pt-4 max-w-xl">Contato: 83 989050001</p>
       <p className="text-lg pt-4 max-w-xl">
+        <b>Valor: R$ 10,00</b> | <b>Prêmio: R$ 10,00</b>
+      </p>
+      <p className="text-base pt-4 max-w-xl">PIX: 83 989050001</p>
+      <p className="text-base pt-4 max-w-xl">
         O sorteio será no instagram: @lucaslimasz_
       </p>
       <section className="my-10 bg-white border-2 border-[#174580]">
