@@ -19,7 +19,7 @@ export default function RootLayout({
     <AuthGoogleProvider>
       <RafflesProvider>
         <html lang="pt-BR">
-          <body className={inter.className}>{children}</body>
+          <body className={`${inter.className} bg-[url(/bg.png)] bg-no-repeat bg-cover bg-center`}>{children}</body>
         </html>
       </RafflesProvider>
     </AuthGoogleProvider>
