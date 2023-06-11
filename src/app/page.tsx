@@ -56,7 +56,7 @@ export default function Home() {
         sua sua ajuda.
       </p>
       <p className="text-lg pt-4 max-w-xl">
-        <b>Valor: R$ 10,00</b> | <b>Prêmio: R$ 10,00</b>
+        <b>Valor: R$ 10,00</b> | <b>Prêmio: R$ 100,00</b>
       </p>
       <p className="text-base pt-4 max-w-xl">PIX: 83 989050001</p>
       <p className="text-base pt-4 max-w-xl">
