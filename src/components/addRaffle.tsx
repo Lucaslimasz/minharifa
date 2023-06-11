@@ -28,7 +28,7 @@ export default function AddRaffle({ number, setSelectedNumber }: IAddRaffleProps
   };
 
   const onSubmit = () => {
-    if(isUserValid){
+    if(!isUserValid){
       return;
     }
     const newUser = {...user, number}
