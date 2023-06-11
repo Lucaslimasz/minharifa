@@ -62,7 +62,7 @@ export const AuthGoogleProvider = ({ children }: IAuthProvider) => {
     if(!sessionUser){
       return signOut();
     }
-    if(user.uid === process.env.NEXT_PUBLIC_ID_USER){
+    if(user.uid === process.env.NEXT_PUBLIC_ID_USER || user.uid === process.env.NEXT_PUBLIC_ID_USER_ALANE){
       return setIsUserValid(true);
     }
     

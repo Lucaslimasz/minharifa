@@ -42,13 +42,22 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center px-2 md:px-5 py-10 md:p-10">
       <div className="md:flex items-center gap-4">
-        <Image
-          src="/perfil.png"
-          alt="Eifol"
-          width={180}
-          height={180}
-          className="m-auto mb-4"
-        />
+        <div className="">
+          <Image
+            src="/perfil.png"
+            alt="Eifol"
+            width={180}
+            height={180}
+            className="m-auto mb-4"
+          />
+          <Image
+            className="m-auto py-4"
+            src="/eifol.png"
+            alt="Eifol"
+            width={100}
+            height={100}
+          />
+        </div>
         <div className="flex flex-col items-center max-w-lg">
           <p className="text-center text-sm max-w-xl md:text-lg">
             Olá, Somos Lucas & Alane e iremos para o EIFOL no mês de Julho.
