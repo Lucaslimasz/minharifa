@@ -41,7 +41,7 @@ export default function Home() {
   
   return (
     <main className="flex min-h-screen flex-col items-center px-2 md:px-5 py-10 md:p-10">
-      <Image src="/perfil.png" alt="Eifol" width={180} height={180} className="w-28"/>
+      <Image src="/perfil.png" alt="Eifol" width={180} height={180} className="w-36"/>
       <Image
         className="py-4"
         src="/eifol.png"
@@ -52,7 +52,7 @@ export default function Home() {
 
       <p className="text-center text-sm max-w-xl md:text-lg">
         Olá, Somos Lucas & Alane e iremos para o EIFOL no mês de Julho. Queremos
-        que você nos ajude a estar presente desse grande sonho!!! Contamos com a
+        que você nos ajude a estar presente naquele lugar!!! Contamos com a
         sua sua ajuda.
       </p>
       <p className="text-lg pt-4 max-w-xl">
